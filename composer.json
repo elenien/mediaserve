@@ -1,0 +1,21 @@
+{
+    "name": "elenien/mediaserve",
+    "description": "MediaServe is a small php class to serve media files to the jPlayer HTML5 media player.",
+    "type": "Library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "MediaServe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tracy Chiappari",
+            "email": "sonrider@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
